@@ -117,7 +117,12 @@ public class CalculadoraEstadisticas
 
 		return resultado;
 	}
-
+	/**
+	 * Busca cual es el pais de origen registrado en la informacion de un atleta dado
+	 * 
+	 * 	@param nombreAtleta El nombre del atleta de interés.
+	 * @return Un string con el nombre del pais que representa ese atleta.
+	 */
 	public String buscarPaisAtleta(String nombreAtleta)
 	{
 		Atleta elAtleta = buscarAtleta(nombreAtleta);
